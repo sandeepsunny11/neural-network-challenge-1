@@ -1,1 +1,4 @@
 # neural-network-challenge-1
+The challenge assignment involves classifying student loan repayment status as either 0 or 1. To achieve this, a neural network with two hidden layers was implemented. The first hidden layer contains 6 neurons, while the second has 3 neurons. These hidden layers connect to an output layer, which performs the final classification. The input layer has 11 features and is connected directly to the first hidden layer.
+
+The model is trained using the Adam optimizer, with binary cross-entropy as the loss function and accuracy as the evaluation metric. The training process resulted in a 78% accuracy on the training set and 75% accuracy on both the validation and test sets. The model’s weights were saved and reloaded to re-run predictions on the test data. Finally, a classification report was generated to present the results, detailing metrics like precision, recall, and F1-score.
